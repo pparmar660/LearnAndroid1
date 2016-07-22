@@ -9,6 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Key Name"
+        android:textColor="#000"
         android:id="@+id/keyName"
         android:layout_margin="10dp" />
 
@@ -24,11 +25,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Delete Key"
+            android:textColor="#000"
             android:id="@+id/deleteKey"
             android:layout_weight="1" />
 
         <TextView
             android:layout_width="0dp"
+            android:textColor="#000"
             android:layout_height="wrap_content"
             android:text="Decrypt Key"
             android:id="@+id/decryptKey"
@@ -38,6 +41,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Encrypt Key"
+            android:textColor="#000"
             android:id="@+id/textView4"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1" />
